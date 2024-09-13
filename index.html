@@ -1,114 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Ecola DNC</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Ecola DNC</title>
+	</head>
 
-  <!--Menu superior-->
-  <body>
-    <section id="menusuperior">
-      <a href="https://www.escoladnc.com.br" target="_blank"
-        ><img src="./src/menusuperior/logo_dnc.svg" id="logo" alt="ERROR"
-      /></a>
-      <h1 id="titulo-menusuperior">
-        Dê os primeiros passos da <br />
-        sua carreira em Tecnologia
-      </h1>
+	<!--Menu superior-->
+	<body>
+		<section id="menusuperior">
+			<a href="https://www.escoladnc.com.br" target="_blank">
+				<img src="./src/menusuperior/logo_dnc.svg" id="logo" alt="ERROR" />
+			</a>
 
-      <p id="texto-menusuperior">
-        Inscreva-se no curso gratuito de Introdução à <br />
-        Tecnologia da DNC School e aprenda os principais <br />
-        fundamentos para construir experiências efetivas.
-      </p>
-    </section>
+			<h1 id="titulo-menusuperior">
+				Dê os primeiros passos da <br />
+				sua carreira em Tecnologia
+			</h1>
 
-    <!--Menu informacional-->
-    <section id="menuinformacional">
-      <div class="div-menuinformacional">
-        <img
-          src="./src/menuinformacional/certificado_icon.svg"
-          class="icone"
-          alt=""
-        />
-        <p>Certificado de conclusão</p>
-      </div>
-      <div class="div-menuinformacional">
-        <img src="./src/menuinformacional/relogio_icon.svg" class="icone" />
-        <p>4 horas de conteúdo</p>
-      </div>
-      <div class="div-menuinformacional">
-        <img
-          src="./src/menuinformacional/camera_icon.svg"
-          class="icone"
-          alt=""
-        />
-        <p>Aulas online gravadas</p>
-      </div>
-    </section>
+			<p id="texto-menusuperior">
+				Inscreva-se no curso gratuito de Introdução à <br />
+				Tecnologia da DNC School e aprenda os principais <br />
+				fundamentos para construir experiências efetivas.
+			</p>
+		</section>
 
-    <!--Video-->
-    <section id="secao-video">
-      <iframe
-        id="video"
-        width="502"
-        height="283"
-        src="https://www.youtube.com/embed/ITxGkd9h4n4"
-        title="DNC - A escola inovadora que forma profissionais de alta perfomance"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-      <div id="texto-video">
-        <h2 id="titulo-texto-video">
-          Aprenda com especialistas e <br />
-          comece seu primeiro projeto
-        </h2>
-        <br />
-        <p>
-          Conheça o processo de desenvolvimento e entenda como utilizar <br />
-          os principais métodos e ferramentas da área para resolver <br />
-          problemas complexos. <br /><br />
-          Conquiste seu certificado e desenvolva um projeto prático para <br />
-          aplicar seus conhecimentos.
-        </p>
-      </div>
-    </section>
+		<!--Menu informacional-->
+		<section id="menuinformacional">
+			<!--Coluna certificado-->
+			<div class="div-menuinformacional">
+				<img
+					src="./src/menuinformacional/certificado_icon.svg"
+					class="icone"
+					alt=""
+				/>
+				<p>Certificado de conclusão</p>
+			</div>
 
-    <!--CARROSSEL-->
-    <section id="carrossel">
-        <div id="div-title-carrossel">
-            <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
-        </div>
-        <div id="div-carrossel">
-          <img class="seta" onclick="moverParaEsquerda()" id="seta-esquerda" src="./src/carrossel/seta-esquerda.svg" alt="">
-          <img id="leonardo" class="card" src="./src/carrossel/leonardo.svg" alt="">
-          <img id="samantha" class="card" src="./src/carrossel/samantha.svg" alt="">
-          <img id="bruna" class="card" src="./src/carrossel/bruna.svg" alt="">
-          <img class="seta" onclick="moverParaDireita()" id="seta-direita" src="./src/carrossel/seta-direita.svg" alt="">
-        </div>
-    </section>
+			<!--Coluna relogio-->
+			<div class="div-menuinformacional">
+				<img src="./src/menuinformacional/relogio_icon.svg" class="icone" />
+				<p>4 horas de conteúdo</p>
+			</div>
 
-    <!--FORMULARIO-->
-    <section id="formulario">
-      <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
-      <form action="">
-        <input type="text" name="nome" id="nome" placeholder="Nome"> <br>
-        <input type="email" name="email" id="email" placeholder="Email"> <br>
-        <input type="number" name="telefone" id="telefone" placeholder="Telefone"> <br>
-        <button>Acesse a ementa grátis </button>
-      </form>
-    </section>
+			<!--Coluna camera-->
+			<div class="div-menuinformacional">
+				<img
+					src="./src/menuinformacional/camera_icon.svg"
+					class="icone"
+					alt=""
+				/>
+				<p>Aulas online gravadas</p>
+			</div>
+		</section>
 
-    <script src="./index.js"></script>
-  </body>
+		<!--Video-->
+		<section id="secao-video">
+			<iframe
+				id="video"
+				width="502"
+				height="283"
+				src="https://www.youtube.com/embed/ITxGkd9h4n4"
+				title="DNC - A escola inovadora que forma profissionais de alta perfomance"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen
+			></iframe>
+			<div id="texto-video">
+				<h2 id="titulo-texto-video">
+					Aprenda com especialistas e <br />
+					comece seu primeiro projeto
+				</h2>
+				<br />
+				<p>
+					Conheça o processo de desenvolvimento e entenda como utilizar <br />
+					os principais métodos e ferramentas da área para resolver <br />
+					problemas complexos. <br /><br />
+					Conquiste seu certificado e desenvolva um projeto prático para <br />
+					aplicar seus conhecimentos.
+				</p>
+			</div>
+		</section>
+
+		<!--CARROSSEL-->
+		<section id="carrossel">
+			<div id="div-title-carrossel">
+				<h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+			</div>
+			<div id="div-carrossel">
+				<img
+					class="seta"
+					onclick="moverParaEsquerda()"
+					id="seta-esquerda"
+					src="./src/carrossel/seta-esquerda.svg"
+					alt=""
+				/>
+				<img
+					id="leonardo"
+					class="card"
+					src="./src/carrossel/leonardo.svg"
+					alt=""
+				/>
+				<img
+					id="samantha"
+					class="card"
+					src="./src/carrossel/samantha.svg"
+					alt=""
+				/>
+				<img id="bruna" class="card" src="./src/carrossel/bruna.svg" alt="" />
+				<img
+					class="seta"
+					onclick="moverParaDireita()"
+					id="seta-direita"
+					src="./src/carrossel/seta-direita.svg"
+					alt=""
+				/>
+			</div>
+		</section>
+
+		<!--FORMULARIO-->
+		<section id="formulario">
+			<h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+			<form action="">
+				<input type="text" name="nome" id="nome" placeholder="Nome" /> <br />
+				<input type="email" name="email" id="email" placeholder="Email" />
+				<br />
+				<input
+					type="number"
+					name="telefone"
+					id="telefone"
+					placeholder="Telefone"
+				/>
+				<br />
+				<button>Acesse a ementa grátis</button>
+			</form>
+		</section>
+
+		<script src="./index.js"></script>
+	</body>
 </html>
