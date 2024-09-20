@@ -1,113 +1,60 @@
-[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
-[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[HTML__BADGE]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[CSS__BADGE]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visite_esse_projeto-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://myfirstlandingpage-gc.netlify.app/
+[CHROME__URL]: https://www.google.com/chrome/dr/download/?brand=YTUH&ds_kid=43700077650614090&gad_source=1&gclid=Cj0KCQjwurS3BhCGARIsADdUH5167jbbhYJtsY6F3AVT8rrObpLIpiVZWD8Zy84x6tT5wKDHwt2-lRYaAo-7EALw_wcB&gclsrc=aw.ds 
+[FIREFOX__URL]: https://mozilla-firefox.softonic.com.br
+[OPERA__URL]: https://www.opera.com/pt-br/download
 
 <h1 align="center" style="font-weight: bold;">Landing Page 💻</h1>
 
 
 ![javascript][JAVASCRIPT__BADGE]
+![HTML5][HTML__BADGE]
+![CSS3][CSS__BADGE]
 
 <p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#Sobre">Sobre</a> • 
+ <a href="#started">Instruções de Uso</a> • 
 </p>
 
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="./imagens/image-landing-page/my-first-landing-page.png" alt="Imagem da landing page" width="400px">
 </p>
 
-<h2 id="started">📌 About</h2>
+<h2 id="started">📌 Sobre</h2>
 
-Minha primeira landing page feita com base em um figma ultilizando HTML, CSS e Javascript
+Esta landing page foi desenvolvida como parte do curso de Introdução à Tecnologia da DNC School, com o objetivo de apresentar o curso e incentivar novos alunos a se inscreverem. Com um design responsivo e moderno, a página utiliza HTML, CSS e JavaScript para oferecer uma experiência atraente e interativa. 
+
+Os visitantes encontram informações sobre o curso, benefícios destacados em colunas, um vídeo explicativo sobre o processo de desenvolvimento, e um carrossel de depoimentos de alunos. Um formulário simples permite que os interessados capturem informações para acessar a ementa do curso. O uso de Grid e Flexbox garante uma organização eficiente, enquanto transições suaves e efeitos de hover melhoram a interatividade. No futuro, planejo adicionar validação ao formulário e aprimorar a responsividade para dispositivos móveis.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
-<h2 id="started">🚀 Getting started</h2>
+<h2 id="started">🚀 Instruções de Uso</h2>
 
-Here you describe how to run your project locally
+Aqui você discobrirá como rodar esse projeto localmente
 
-<h3>Prerequisites</h3>
+<h3>Pré-requisitos</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
+Aqui estão listados todos os pré-requisitos necessários para rodar meu projeto. Por exemplo:
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- Um browser de sua prefêrencia ( Ex: [Chrome][CHROME__URL], [FireFox][FIREFOX__URL], [Opera][OPERA__URL]...)
+- [Git](https://github.com)
 
-<h3>Cloning</h3>
+<h3>Clonando para sua máquina</h3>
 
-How to clone your project
-
-```bash
-git clone your-project-url-in-github
-```
-
-<h3>Starting</h3>
-
-How to start your project
+Como clonar esse projeto:
 
 ```bash
-cd project-name
-npm some-command-to-run
+git clone https://github.com/CristaldoGui/my-first-landing-page
 ```
 
-<h2 id="routes">📍 Application Routes</h2>
+<h3>Rodando</h3>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>/authenticate</kbd>     | page that list all user info
-| <kbd>/login</kbd>     | page to login
-| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
+Como rodar esse projeto?
 
-<h2 id="colab">🤝 Collaborators</h2>
-
-Special thank you for all people that contributed for this project.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
-        <sub>
-          <b>Fernanda Kipper</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
-        <sub>
-          <b>Elon Musk</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<h2 id="contribute">📫 Contribute</h2>
-
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
-
-1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
-2. `git checkout -b feature/NAME`
-3. Follow commit patterns
-4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+1 - Clique com o botão direito no arquivo Index.html <br>
+2 - Seleciona a opção "Abrir com..." ou "Open with..." <br>
+3 - Escolha o browser de sua preferência
